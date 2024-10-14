@@ -5,7 +5,7 @@ amends "pkl:Project"
 package {
   name = "dab-dill"
   version = "0.0.1"
-  baseUri = "pkg.pkl-lang.org/github.com/jonesberg/\(name)"
+  baseUri = "package://pkg.pkl-lang.org/github.com/jonesberg/\(name)"
   packageZipUrl = "https://github.com/jonesberg/dab-dill/releases/download/\(name)@\(version)/\(name)@\(version).zip"
   license = "Apache-2.0"
   authors {
