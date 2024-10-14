@@ -1,0 +1,22 @@
+// Placeholder for some dilly information
+
+amends "pkl:Project"
+
+package {
+  name = "dab-dill"
+  version = "0.0.1"
+  baseUri = "pkg.pkl-lang.org/github.com/jonesberg/\(name)"
+  packageZipUrl = "https://github.com/jonesberg/dab-dill/releases/download/\(name)@\(version)/\(name)@\(version).zip"
+  license = "Apache-2.0"
+  authors {
+    "Jonathan Rioux <jonathan@raiks.ca>"
+  }
+  exclude {
+    "examples/**"
+    "tests/**"
+  }
+  description = "TODO"
+  issueTracker = "https://github.com/jonesberg/dab-dill/issues"
+  // sourceCode = "https://github.com/apple/pkl-pantry/tree/\(name)@\(version)/packages/\(name)"
+  // sourceCodeUrlScheme = "https://github.com/apple/pkl-pantry/blob/\(name)@\(version)/packages/\(name)%{path}#L%{line}-%{endLine}"
+}

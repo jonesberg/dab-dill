@@ -1,0 +1,5 @@
+module Bundle
+
+class Bundle {
+  name = String
+}

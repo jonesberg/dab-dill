@@ -1,6 +1,6 @@
-# dab-dill: a fresh take on defining Databricks Assets Bundles
+# dab-dill: a fresh take on defining Databricks Asset Bundles
 
-dab-dill is a pre-processor for [Databricks Assets Bundles](https://docs.databricks.com/en/dev-tools/bundles/index.html) (DAB) that leverage the [Pkl configuration language](https://pkl-lang.org/) for ease of authoring, extension, and maintainance.
+dab-dill is a pre-processor for [Databricks Asset Bundles](https://docs.databricks.com/en/dev-tools/bundles/index.html) (DAB) that leverage the [Pkl configuration language](https://pkl-lang.org/) for ease of authoring, extension, and maintainance.
 
 Compared to the YAML approach, dab-dill in my opinion provides
 
